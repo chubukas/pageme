@@ -4,7 +4,7 @@ import {
   faClock,
   faBusinessTime,
   faMoneyBill,
-  faChalkboardTeacher
+  faChalkboardTeacher,
 } from "@fortawesome/free-solid-svg-icons";
 
 const WhyChooseMe = () => {
@@ -16,7 +16,7 @@ const WhyChooseMe = () => {
           <div className="col-lg-6 ">
             <div className="section-title text-center">
               <h2>Why choose Me</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <p>This is why we stand out.</p>
             </div>
           </div>
         </div>
@@ -34,9 +34,9 @@ const WhyChooseMe = () => {
               </div>
               <h4>Delivers on time</h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
-                laboriosam, soluta voluptate, quod dolore facilis iusto
-                eligendi.
+                Time is considered seriously in all my projects, making sure i
+                complete the project before the desired period. I don't fail my
+                customers on it.
               </p>
             </div>
           </div>
@@ -54,9 +54,8 @@ const WhyChooseMe = () => {
               </div>
               <h4>Delivers the best product</h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
-                laboriosam, soluta voluptate, quod dolore facilis iusto
-                eligendi.
+                I give the best of what you have asked for and more, this is why
+                my customers keeps coming back.
               </p>
             </div>
           </div>
@@ -74,9 +73,8 @@ const WhyChooseMe = () => {
               </div>
               <h4>Updates you with new technologies</h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
-                laboriosam, soluta voluptate, quod dolore facilis iusto
-                eligendi.
+                Updating you on the latest softwares and top notch solution is
+                what solidifies our business.
               </p>
             </div>
           </div>
@@ -94,9 +92,8 @@ const WhyChooseMe = () => {
               </div>
               <h4>Gives the right price</h4>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem
-                laboriosam, soluta voluptate, quod dolore facilis iusto
-                eligendi.
+                I give you the best price you can't find any where, just try and
+                see what am taking about.
               </p>
             </div>
           </div>

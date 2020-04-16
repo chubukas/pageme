@@ -3,7 +3,7 @@ import {
   faTwitter,
   faLinkedin,
   faInstagram,
-  faGithub
+  faGithub,
 } from "@fortawesome/free-brands-svg-icons";
 
 export default {
@@ -11,33 +11,33 @@ export default {
     {
       type: "graphic",
       image: "/images/ebuka.jpg",
-      projectname: "graphic design"
+      projectname: "graphic design",
     },
     {
       type: "web",
       image: "/images/ebuka.jpg",
-      projectname: "web design"
+      projectname: "web design",
     },
     {
       type: "software",
       image: "/images/ebuka.jpg",
-      projectname: "software design"
+      projectname: "software design",
     },
     {
       type: "graphic",
       image: "/images/ebuka.jpg",
-      projectname: "graphic design"
+      projectname: "graphic design",
     },
     {
       type: "web",
       image: "/images/ebuka.jpg",
-      projectname: "web design"
+      projectname: "web design",
     },
     {
       type: "software",
       image: "/images/ebuka.jpg",
-      projectname: "software design"
-    }
+      projectname: "software design",
+    },
   ],
 
   skills: [
@@ -46,19 +46,38 @@ export default {
     { name: "Js", percent: 90 },
     { name: "React", percent: 90 },
     { name: "Vue", percent: 50 },
-    { name: "Angular", percent: 60 },
     { name: "Php", percent: 70 },
     { name: "Express Js", percent: 70 },
     { name: "Laravel", percent: 50 },
     { name: "Node Js", percent: 70 },
-    { name: "Python", percent: 40 }
+    { name: "Python", percent: 50 },
   ],
 
   social: [
-    { link: "faFacebook", icon: faFacebook },
-    { link: "faTwitter", icon: faTwitter },
-    { link: "faLinkedin", icon: faLinkedin },
-    { link: "faInstagram", icon: faInstagram },
-    { link: "faGithub", icon: faGithub }
-  ]
+    {
+      link: "faFacebook",
+      icon: faFacebook,
+      account: "https://www.facebook.com/chukwuebuka.anyadiegwu",
+    },
+    {
+      link: "faTwitter",
+      icon: faTwitter,
+      account: "https://www.twitter.com/bukacode",
+    },
+    {
+      link: "faLinkedin",
+      icon: faLinkedin,
+      account: "https://www.linkedin.com/in/chubukas",
+    },
+    {
+      link: "faInstagram",
+      icon: faInstagram,
+      account: "https://www.instagram.com/chubukas",
+    },
+    {
+      link: "faGithub",
+      icon: faGithub,
+      account: "https://www.github.com/chubukas",
+    },
+  ],
 };

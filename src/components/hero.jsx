@@ -1,8 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
+import ModalComponent from "./modal";
 
 const Hero = () => {
+  const [openModal, setModal] = useState(false);
+
+  const modal = () => setModal(!openModal);
+
   return (
     /* // <!-- ====== Hero Area ====== --> */
     <div className="hero-aria" id="home">
@@ -19,13 +24,17 @@ const Hero = () => {
             <span>FullStack Developer</span>
           </h3>
           <div className="d-flex">
-            <a
-              href="#about"
+            <button
               className="button smooth-scroll bg-white text-dark"
+              onClick={modal}
             >
               Hire Me
-            </a>
-            <a href="#about" className="button smooth-scroll ml-5 text-white">
+            </button>
+            <a
+              href="/images/Chukwuebuka Anyadiegwu.pdf"
+              className="button smooth-scroll ml-5 text-white"
+              download="Chukwuebuka Anyadiegwu CV"
+            >
               Get CV
             </a>
           </div>
@@ -40,7 +49,7 @@ const Hero = () => {
             <img
               src="/images/hero-area/img-2.jpg"
               alt="heroPics"
-              height="657px"
+              height="625px"
             />
           </div>
 
@@ -49,12 +58,13 @@ const Hero = () => {
             <img
               src="/images/hero-area/img-1.jpg"
               alt="heroPics"
-              height="657px"
+              height="625px"
             />
           </div>
         </Carousel>
       </div>
       {/* <!-- // Hero Area Slider --> */}
+      {openModal ? <ModalComponent toggles={true}></ModalComponent> : null}
     </div>
   );
 };
