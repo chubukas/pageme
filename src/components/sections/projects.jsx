@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext} from "react";
 import { SRLWrapper } from "simple-react-lightbox";
 import ProjectItem from "../projectItem";
 import Filters from "../filters";
@@ -12,21 +12,24 @@ const Projects = () => {
     <ProjectItem project={item} key={i} />
   ));
 
-  const uniqueType = (items, value) => {
-    return [...new Set(items.map((item) => item[value]))];
-  };
+    const uniqueType = (items, value) => {
+      return [...new Set(items.map((item) => item[value]))];
+    };
 
-  let unquieButtons = uniqueType(project, "type");
-  unquieButtons = ["all", ...unquieButtons];
+    let unquieButtons = uniqueType(project, "type");
+    unquieButtons = ["all", ...unquieButtons];
 
-  const buttonsFilters = unquieButtons.map((item, i) => (
-    <Filters
-      key={i}
-      name={item}
-      actions={filterButtons}
-      active={activeButton}
-    />
-  ));
+    
+   const buttonsFilters = unquieButtons.map((item, i) => (
+      <Filters
+        key={i}
+        name={item}
+        actions={filterButtons}
+        active={activeButton}
+      />
+    ));
+
+
   return (
     <section className="section-padding portfolio-area bg-light py-5">
       <div className="container">

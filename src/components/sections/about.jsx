@@ -32,7 +32,7 @@ const About = () => {
 
   const displaySocialIcons = social.map((item, i) => {
     return (
-      <a target="_blank" rel="noopener noreferrer" key={i} href={item.link}>
+      <a target="_blank" rel="noopener noreferrer" key={i} href={item.account}>
         <FontAwesomeIcon key={i} icon={item.icon} />
       </a>
     );
@@ -62,19 +62,16 @@ const About = () => {
             </p>
             <p className="my-2 stack">FullStack Developer</p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis
-              numquam ipsam ut deleniti perferendis aliquid ullam, voluptatibus
-              nam sunt eum laudantium cupiditate iste, obcaecati deserunt
-              dolores aliquam quia cum minus animi ipsa est facere culpa fugiat,
-              maxime quam! Itaque aperiam sequi accusantium impedit recusandae
-              nobis quod sunt deserunt provident omnis.
+              Dynamic and creative software developer with over 5 years of
+              experience in producing robust code for high-volume companies.
+              Eager to support the dev team at your company with top-notch
+              coding skills. In previous roles, doubled code-efficiency of the
+              company, and increased customer retention by 30% among others.
             </p>
             <p>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsum is that it has a more-or-less normal
-              distribution of letters, as opposed to using 'Content here,
-              content here
+              I have 5 years of production experience with JavaScript, PHP,
+              Mysql and 3 years of production experience with Vue, React,
+              Express js, node js and Mongodb.
             </p>
           </div>
         </div>
@@ -87,7 +84,7 @@ const About = () => {
         <div className="col-md-6">
           <div className="experience-area">
             <div className="d-flex flex-row years-area">
-              <h2 className="p-3 years">3</h2>
+              <h2 className="p-3 years">{new Date().getFullYear() - 2015}</h2>
               <h2>
                 <span>Years</span>
                 <span>Experience</span>

@@ -11,7 +11,7 @@ const Services = () => {
             <div className="col-lg-6 ">
               <div className="section-title text-center mt-4">
                 <h2>Service</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <p>I provide you will the best of services.</p>
               </div>
             </div>
           </div>
@@ -26,9 +26,8 @@ const Services = () => {
                 </div>
                 <h2>Web Design</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Sapiente minima repudiandae amet, accusamus ea impedit aperiam
-                  consectetur libero. Deleniti id sit minima.
+                  Our Website strengthens your brand / company’s brand, while
+                  ensuring ease of use and simplicity for your audience.
                 </p>
               </div>
             </div>
@@ -41,9 +40,8 @@ const Services = () => {
                 </div>
                 <h2>Software Development</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Sapiente minima repudiandae amet, accusamus ea impedit aperiam
-                  consectetur libero. Deleniti id sit minima.
+                  We customize Software to solve your problems and make work
+                  easy for you / your company.
                 </p>
               </div>
             </div>
@@ -54,11 +52,10 @@ const Services = () => {
                 <div className="text-center">
                   <img src="/images/s2.png" alt="grafix icon" width="40px" />
                 </div>
-                <h2>Grafix Design</h2>
+                <h2>Web Managment</h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Sapiente minima repudiandae amet, accusamus ea impedit aperiam
-                  consectetur libero. Deleniti id sit minima.
+                  Our approach to Web Managment is to optimized performance for
+                  your Web sites and Customize Softwares.
                 </p>
               </div>
             </div>
