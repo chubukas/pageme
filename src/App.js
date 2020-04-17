@@ -8,6 +8,7 @@ import Navbar from "./components/navbar";
 import Preloader from "./components/preloader";
 import Hero from "./components/hero";
 import SectionContainer from "./components/sections/sectionContainer";
+import Footer from "./components/footer";
 
 function App() {
   /*::::::::::::::::::::::::::::::::::::
@@ -26,6 +27,7 @@ function App() {
       <Navbar />
       <Hero />
       <SectionContainer />
+      <Footer></Footer>
     </>
   );
 }

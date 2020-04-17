@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import data from "./data";
 
-const { project, skills, social } = data;
+const { project, skills, social, clients } = data;
 const context = React.createContext();
 
 class DataContext extends Component {
@@ -36,6 +36,7 @@ class DataContext extends Component {
             filterButtons: this.filterButtons,
             skills,
             social,
+            clients,
           }}
         >
           {this.props.children}

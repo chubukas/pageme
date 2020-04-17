@@ -40,7 +40,7 @@ const Services = () => {
                 </div>
                 <h2>Software Development</h2>
                 <p>
-                  We customize Software to solve your problems and make work
+                  We customize Softwares to solve your problems and make work
                   easy for you / your company.
                 </p>
               </div>

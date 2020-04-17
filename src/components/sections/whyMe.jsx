@@ -34,9 +34,8 @@ const WhyChooseMe = () => {
               </div>
               <h4>Delivers on time</h4>
               <p>
-                Time is considered seriously in all my projects, making sure i
-                complete the project before the desired period. I don't fail my
-                customers on it.
+                Time is considered seriously, all projects are completed before
+                the desired period.
               </p>
             </div>
           </div>
@@ -54,7 +53,7 @@ const WhyChooseMe = () => {
               </div>
               <h4>Delivers the best product</h4>
               <p>
-                I give the best of what you have asked for and more, this is why
+                I deliver the best of what you have asked for and more, this is why
                 my customers keeps coming back.
               </p>
             </div>
@@ -74,7 +73,7 @@ const WhyChooseMe = () => {
               <h4>Updates you with new technologies</h4>
               <p>
                 Updating you on the latest softwares and top notch solution is
-                what solidifies our business.
+                what solidifies the business.
               </p>
             </div>
           </div>

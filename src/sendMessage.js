@@ -19,10 +19,10 @@ const sendMessage = async (data) => {
       "user_J5mQZV3e8uztfavKr6qb1"
     )
     .then((d) => {
-      console.log(d);
+      alert("Your Message was sent Successful !!!");
     })
     .catch((e) => {
-      console.log(e);
+      alert("Your Message was not sent.. Please try again");
     });
 };
 

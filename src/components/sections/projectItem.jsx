@@ -4,7 +4,7 @@ const ProjectItem = ({ project }) => {
   return (
     <div className="col-lg-4 col-md-6 graphic">
       <div className="single-portfolio">
-        <a href={project.image} data-attribute="SRL">
+        <a href={project.link} rel="noopener noreferrer" target="_blank">
           <img
             src={`${project.image}`}
             alt={project.projectname}

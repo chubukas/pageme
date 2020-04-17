@@ -1,89 +1,49 @@
-import React, { useEffect } from "react";
-import $ from "jquery";
+import React, { useState } from "react";
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink,
+} from "reactstrap";
 
-const Navbar = () => {
-  useEffect(() => {
-    $(window).scroll(function () {
-      var scroll = $(window).scrollTop();
+const Navbars = () => {
+  const [collapse, setCollapsed] = useState(true);
 
-      if (scroll >= 1) {
-        $(".navbar").addClass("bg-primari");
-        $(".navbar a").addClass("newlink ");
-      } else {
-        $(".navbar").removeClass("bg-primari");
-        $(".navbar a").removeClass("newlink ");
-      }
-    });
-  }, []);
+  const toggleNavbar = () => setCollapsed(!collapse);
+
   return (
     <>
-      {/* <!-- ====== Header ====== --> */}
-      <header id="header" className="header">
-        {/* <!-- ====== Navbar ====== --> */}
-        <nav className="navbar navbar-expand-lg fixed-top" expand="lg">
-          <div className="container">
-            {/* <!-- Logo --> */}
-            <a className="navbar-brand logo" href="index.html">
-              {/* <img src="assets/images/logo.png" alt="logo" /> */}
-            </a>
-            {/* <!-- // Logo --> */}
-
-            {/* <!-- Mobile Menu --> */}
-            <button
-              className="navbar-toggler"
-              type="button"
-              data-toggle="collapse"
-              data-target="#navbarSupportedContent"
-              aria-expanded="false"
-            >
-              <span className="text-warning">menu</span>
-            </button>
-            {/* <!-- Mobile Menu --> */}
-
-            <div
-              className="collapse navbar-collapse main-menu"
-              id="navbarSupportedContent"
-            >
-              <ul className="navbar-nav ml-auto">
-                <li className="nav-item active">
-                  <a className="nav-link" href="#home">
-                    HOME
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#about">
-                    ABOUT
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#service">
-                    SERVICE
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#portfolio">
-                    PORTFOLIO
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#blog">
-                    BLOG
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link pr0" href="#contact">
-                    CONTACT
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-        {/* <!-- ====== // Navbar ====== --> */}
+      <header>
+        <Navbar className="fixed-top" expand="md" color="warning">
+          <NavbarBrand href="/" className="mr-auto pl-5">
+            <img
+              src="/images/ebuka.jpg"
+              alt="logo"
+              className="rounded-circle"
+              width="50"
+              height="50"
+            />
+          </NavbarBrand>
+          <NavbarToggler onClick={toggleNavbar} className="mr-5">
+            <span className="text-white">menu</span>
+          </NavbarToggler>
+          <Collapse isOpen={!collapse} navbar>
+            <Nav navbar className=" ml-auto pr-5">
+              <NavItem className="text-center">
+                <NavLink href="/">Home</NavLink>
+              </NavItem>
+              {/* <NavItem className="text-center">
+                <NavLink href="/">Blog</NavLink>
+              </NavItem> */}
+            </Nav>
+          </Collapse>
+        </Navbar>
       </header>
-      {/* <!-- ====== // Header ====== --> */}
     </>
   );
 };
 
-export default Navbar;
+export default Navbars;

@@ -1,6 +1,5 @@
-import React, { useContext} from "react";
-import { SRLWrapper } from "simple-react-lightbox";
-import ProjectItem from "../projectItem";
+import React, { useContext } from "react";
+import ProjectItem from "./projectItem";
 import Filters from "../filters";
 import { context } from "../../context";
 
@@ -12,23 +11,21 @@ const Projects = () => {
     <ProjectItem project={item} key={i} />
   ));
 
-    const uniqueType = (items, value) => {
-      return [...new Set(items.map((item) => item[value]))];
-    };
+  const uniqueType = (items, value) => {
+    return [...new Set(items.map((item) => item[value]))];
+  };
 
-    let unquieButtons = uniqueType(project, "type");
-    unquieButtons = ["all", ...unquieButtons];
+  let unquieButtons = uniqueType(project, "type");
+  unquieButtons = ["all", ...unquieButtons];
 
-    
-   const buttonsFilters = unquieButtons.map((item, i) => (
-      <Filters
-        key={i}
-        name={item}
-        actions={filterButtons}
-        active={activeButton}
-      />
-    ));
-
+  const buttonsFilters = unquieButtons.map((item, i) => (
+    <Filters
+      key={i}
+      name={item}
+      actions={filterButtons}
+      active={activeButton}
+    />
+  ));
 
   return (
     <section className="section-padding portfolio-area bg-light py-5">
@@ -37,8 +34,8 @@ const Projects = () => {
         <div className="row justify-content-center">
           <div className="col-lg-6 ">
             <div className="section-title text-center">
-              <h2>Recent Work</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <h2>My Projects</h2>
+              <p>Like What You See? Just Give Me A Call</p>
             </div>
           </div>
         </div>
@@ -52,9 +49,8 @@ const Projects = () => {
           </div>
           {/* <!-- // Work List Menu --> */}
         </div>
-        <SRLWrapper>
-          <div className="row portfolio">{projects}</div>
-        </SRLWrapper>
+
+        <div className="row portfolio">{projects}</div>
       </div>
     </section>
   );

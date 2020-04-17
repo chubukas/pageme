@@ -9,34 +9,34 @@ import {
 export default {
   project: [
     {
-      type: "graphic",
-      image: "/images/ebuka.jpg",
-      projectname: "graphic design",
+      type: "web",
+      image: "/images/projects/youplace.jpg",
+      projectname: "Youplace limited",
+      link: "https://www.youplace.com",
     },
     {
       type: "web",
-      image: "/images/ebuka.jpg",
-      projectname: "web design",
-    },
-    {
-      type: "software",
-      image: "/images/ebuka.jpg",
-      projectname: "software design",
-    },
-    {
-      type: "graphic",
-      image: "/images/ebuka.jpg",
-      projectname: "graphic design",
+      image: "/images/projects/picadailys.png",
+      projectname: "PicaDailys Cooperative",
+      link: "https://www.picadailys.com",
     },
     {
       type: "web",
-      image: "/images/ebuka.jpg",
-      projectname: "web design",
+      image: "/images/projects/Jeffeagle Nigeria.jpg",
+      projectname: "Jeffeagle Nigeria Limited",
+      link: "https://jeffeaglenigeria.com/",
     },
     {
-      type: "software",
-      image: "/images/ebuka.jpg",
-      projectname: "software design",
+      type: "web",
+      image: "/images/projects/Resort Hostel.jpg",
+      projectname: "My Sample Project",
+      link: "https://reacthotel.netlify.app/",
+    },
+    {
+      type: "web",
+      image: "/images/projects/Designers Store.png",
+      projectname: "My Sample Project",
+      link: "https://e-clothingstore.netlify.app/",
     },
   ],
 
@@ -78,6 +78,19 @@ export default {
       link: "faGithub",
       icon: faGithub,
       account: "https://www.github.com/chubukas",
+    },
+  ],
+  clients: [
+    {
+      image: "/images/projects/youplace.jpg",
+      name: "Youplace Limited",
+      message:
+        "He always deliveres more than what we ask for. He is a very good developer.",
+    },
+    {
+      image: "/images/projects/picadailys.png",
+      name: "Picadailys Cooperative",
+      message: "He is the best developer we have done busines with.",
     },
   ],
 };
