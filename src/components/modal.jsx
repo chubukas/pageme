@@ -17,7 +17,7 @@ const ModalComponent = (props) => {
           Contact Me
         </ModalHeader>
         <ModalBody className="bg-warning">
-          <FormComponent toggle={toggle}></FormComponent>
+          <FormComponent></FormComponent>
         </ModalBody>
       </Modal>
     </div>

@@ -28,7 +28,7 @@ const Hero = () => {
               className="button smooth-scroll bg-white text-dark"
               onClick={modal}
             >
-              Hire Me
+              Contact Me
             </button>
             <a
               href="/images/Chukwuebuka Anyadiegwu.pdf"

@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   font-family: "Poppins", sans-serif !important;
 }
@@ -266,6 +271,7 @@ body {
   line-height: 1;
   border-bottom: 0.1rem solid #ffc900;
   font-family: "Courgette", cursive;
+  font-size: 1.8rem;
 }
 .myName {
   font-size: 1.5rem;
@@ -613,44 +619,53 @@ body {
     clients
   ::::::::::::::::::::::::::::::::::::*/
 
-.site-main .clients .about-title p {
-  padding: 1rem 7rem;
+.clients .title-h1 {
+  font-family: "Courgette", cursive;
+  text-align: center;
+  margin: 2rem 0 1rem 0;
+  font-size: 1.8rem;
 }
 
-.site-main .clients .client {
+.clients .client {
   background: #ffffff10;
-  box-shadow: var(--box-shadow);
-  margin: 3rem 0rem;
+  box-shadow: 3px 3px 3px 3px #1111113d;
+  margin: 2rem 0rem;
+  padding: 1rem 0;
 }
 
-.site-main .clients .client .client-img {
+.clients .name {
+  font-family: "Courgette", cursive;
+}
+
+.about-client h5 {
+  font-family: "Courgette", cursive;
+}
+/*::::::::::::::::::::::::::::::::::::
+    footers
+  ::::::::::::::::::::::::::::::::::::*/
+footer.footer-area {
+  padding: 5rem 0 2rem 0;
+  background: url("/images/footer-bg.png") no-repeat;
+}
+
+footer.footer-area .social h5 {
+  font: normal 500 23px/ 30px "Courgette";
+}
+
+footer.footer-area .social a {
+  font-size: 15px;
   padding: 2rem;
+  color: #5f27f8;
 }
 
-.site-main .clients .client .about-client {
-  padding-top: 2rem;
+footer.footer-area .social a:hover {
+  color: #f7df0b;
 }
 
-.site-main .clients .client .about-client h4 {
-  font: normal 500 21px/ 20px var(--roboto);
+footer.footer-area .copyrights {
+  margin: 2rem 0 0 0;
+  font-size: 0.8rem;
 }
-
-.site-main .clients .client .about-client p {
-  font-size: 14px;
-}
-
-.site-main .clients .owl-carousel .owl-item {
-  display: flex;
-  justify-content: center;
-  padding: 0 1.5rem;
-}
-
-.site-main .clients .owl-carousel .owl-dots .owl-dot.active span {
-  background: var(--primary-color);
-  width: 12px;
-  height: 12px;
-}
-
 /*::::::::::::::::::::::::::::::::::::
     MEDIA QUERY
   ::::::::::::::::::::::::::::::::::::*/

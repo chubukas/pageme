@@ -9,7 +9,7 @@ const FormComponent = (props) => {
   const [message, setmessage] = useState();
   const [phone, setphone] = useState();
 
-  //  const { toggle } = props;
+  const { successAlert, failAlert } = props;
 
   const updateData = (e) => {
     e.preventDefault();
@@ -22,21 +22,13 @@ const FormComponent = (props) => {
 
   const sendData = (e) => {
     e.preventDefault();
-
     let data = {
       email,
       name,
       message,
       phone,
     };
-
- 
-
     sendMessage(data);
-
-    //     setTimeout(() => {
-    // ;
-    //     },5000)
   };
 
   return (
