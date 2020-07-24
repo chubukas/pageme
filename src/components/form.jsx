@@ -9,8 +9,6 @@ const FormComponent = (props) => {
   const [message, setmessage] = useState();
   const [phone, setphone] = useState();
 
-  const { successAlert, failAlert } = props;
-
   const updateData = (e) => {
     e.preventDefault();
     let value = e.target.value;

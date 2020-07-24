@@ -22,9 +22,9 @@ export default {
     },
     {
       type: "web",
-      image: "/images/projects/Jeffeagle Nigeria.jpg",
-      projectname: "Jeffeagle Nigeria Limited",
-      link: "https://jeffeaglenigeria.com/",
+      image: "/images/projects/youpay.png",
+      projectname: "YouPay Escow Service",
+      link: "http://you-pay.herokuapp.com/",
     },
     {
       type: "web",
