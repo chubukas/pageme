@@ -27,7 +27,7 @@ export const data = {
       link: "http://you-pay.herokuapp.com/",
       description: `YouPay is an escrow service that helps stand as a safe 
                     house for funds during the course of a transantion over the internet.
-                    It was built with nodejs and ejs template engine with mongodb database.`,
+                    I built it with nodejs and ejs template engine with mongodb database.`,
     },
     {
       slug: "Resort_Hotel",
@@ -36,7 +36,7 @@ export const data = {
       link: "https://reacthotel.netlify.app/",
       description: `It is a hotel management system that helps the client to see different
                     types of room that are available in the hotel and also aids in booking rooms in the hotel.
-                    it is developed with react and Contentiful API (a headless CMS).`,
+                    i developed it with react and Contentiful API (a headless CMS).`,
     },
     {
       slug: "Designers_Store",
@@ -45,7 +45,25 @@ export const data = {
       link: "https://e-clothingstore.netlify.app/",
       description: `It is an ecommence system for clothing, where customers can go and 
                     buy different kinds of cloth.
-                    It is developed with React and a local data.`,
+                    I developed it with React and a local data.`,
+    },
+    {
+      slug: "Midlman_pharmaceutical",
+      image: "/images/projects/MidlMan.png",
+      projectname: "Midlman Pharmaceutical",
+      link: "https://themidlman.com/",
+      description: `MidlMan is a health-tech pharmaceutical distribution company run by healthcare professionals.
+                     They exist to connect suppliers to buyers of quality healthcare products at the best prices and
+                     at the fastest possible time.
+                     I develop it with React, express js, and monogodb`,
+    },
+    {
+      slug: "Personal_Profile_site",
+      image: "/images/projects/myown.png",
+      projectname: "Personal Profile site",
+      link: "https://pageme.netlify.app/",
+      description: `This is my personal site.
+                     I develop it with React and typescript`,
     },
   ],
   social: [
