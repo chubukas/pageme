@@ -115,6 +115,12 @@ export const data = {
 
   About: [
     {
+      abt: `I create Management systems and  Websites for Churches, Schools, Health/Fitness companies,
+            Financial Service companies, eCommence companies, Hospitals, Blogging companies, Resturants, Hotels,
+            Estate management companies, Logistics companies and Transpotation companies.`,
+      icon: faUserAstronaut,
+    },
+    {
       abt: `Am a dynamic and creative software developer 
         with over ${yearsOFExperience} years of experience in producing robust
         code for high-volume companies.`,
