@@ -55,7 +55,7 @@ export const data = {
       description: `MidlMan is a health-tech pharmaceutical distribution company run by healthcare professionals.
                      They exist to connect suppliers to buyers of quality healthcare products at the best prices and
                      at the fastest possible time.
-                     I develop it with React, express js, and monogodb`,
+                     I develop it with React, Redux, express js, and monogodb`,
     },
     {
       slug: "Personal_Profile_site",
@@ -63,7 +63,7 @@ export const data = {
       projectname: "Personal Profile site",
       link: "https://pageme.netlify.app/",
       description: `This is my personal site.
-                     I develop it with React and typescript`,
+                     I develop it with React, Redux and typescript`,
     },
   ],
   social: [
@@ -200,9 +200,58 @@ export const data = {
   ],
   Education: [
     {
-      cert: `FULL-STACK JAVASCRIPT NANODEGREE`,
-      school: `Udacity, Inc.`,
-      date: `June 2019 - October 2019`,
+      cert: `BACK-END DEVELOPMENT`,
+      school: `OpenClassRooms`,
+      date: `August 2019 - November 2019`,
+      description: `This course taught extensively, on backend development with NodeJs, ExpressJs
+      and Mongodb, and also different ways on how to build a modernize backend.
+      It also includes several projects encompassing the knowledge of:`,
+      learned: [
+        `Creating an Express web server`,
+        `Using Mongoose to access a MongoDB in an Express app`,
+        `Creating a Restful web Api using Node, Express and MongoDB`,
+        `Protecting selected routes with token-based authentication in an Express app`,
+        `Handling user files in an Express app`,
+      ],
+      certImage: `/images/cert/fullsatck.png`
+    },
+    {
+      cert: `RELATIONAL DATABASE WITH SQL`,
+      school: `OpenClassRooms`,
+      date: `August 2019 - November 2019`,
+      description: `This course taught extensively, on Sql database and how to implement it on the backend
+      with different frameworks.
+      It also includes several projects encompassing the knowledge of:`,
+      learned: [
+        `Working and understanding sql `,
+        `Understanding relational database`,
+        `Using Sql to query a database`,
+        `How to perform GROUP BY statement`,
+        `Replicate real-world situations and query reports`,
+        `Using Sql to perform data anlysis`,
+      ],
+      certImage: `/images/cert/sql.png`
+    },
+    {
+      cert: `BUILDING REST API`,
+      school: `OpenClassRooms`,
+      date: `August 2019 - November 2019`,
+      description: `This course taught extensively, on how to build and query API.
+      It also includes several projects encompassing the knowledge of:`,
+      learned: [
+        `Identify the value of Rest Api for your codebase projects.`,
+        `Make requests and send responses with Rest Api`,
+        `Understand how to generate neat reports for execution results`,
+        `Understand the importance and procedure of Rest Api`,
+        `Sercuring your Rest Apis`,
+        `Design endpoints for Rest Api.`,
+      ],
+      certImage: `/images/cert/restapi.png`
+    },
+    {
+      cert: `FULL-STACK JAVASCRIPT`,
+      school: `Udemy, Inc.`,
+      date: `June 2019 - August 2019`,
       description: `This course taught extensively, various technical skills needed to build 
       frontend and backend web applications based on javascript proggraming language.
       It also includes several projects encompassing the knowledge of:`,
@@ -216,6 +265,7 @@ export const data = {
         `Server Deployment, Containerization and Testing`,
         `Database and Data Modelling for the Web`,
       ],
+      certImage: `/images/cert/udemyjs.png`
     },
     {
       cert: `HND in Computer Science`,
@@ -226,6 +276,7 @@ export const data = {
       Fotran Proggramming, Digital Electronics, Digital Computer Design, Microprocessors & Microcomputers,
       Computer Networks and Information Theory.`,
       learned: [],
+      certImage: ``
     },
   ],
   Stacks: [

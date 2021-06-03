@@ -1,17 +1,28 @@
 import { selectEducation } from "../../features/data/selectors"
 import { useAppSelector } from '../../app/hooks';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faAward } from "@fortawesome/free-solid-svg-icons"
 
 const Education = () => {
 
   const educations = useAppSelector(selectEducation)
 
-  const allEducations = educations.map(({ cert, school, date, description, learned }, i) => (
+  const allEducations = educations.map(({ cert, school, date, description, learned, certImage }, i) => (
 
     <div className={i === 0 ? "" : "mt-5"} key={i}>
       <div className="mb-3">
         <span className="text-warning h-3 fw-bolder">{cert}</span><br />
         <i className="text-muted">{school}</i><br />
-        <span className="badge bg-warning text-sm">{date}</span>
+        <span className="badge bg-warning">{date}</span>
+        {certImage &&
+          <div className="badge btn-info btn-sm mx-3 mb-3 fw-bold text-white">
+            <span className="mx-2"><FontAwesomeIcon icon={faAward} /></span>
+            <a className="text-decoration-none text-white" href={certImage}>
+              view certificate
+              </a>
+          </div>
+
+        }
         {cert === "HND in Computer Science" ?
           (
             <ul className="mt-3">

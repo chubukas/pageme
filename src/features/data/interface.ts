@@ -36,6 +36,7 @@ export interface MyDataState {
       date: string,
       description: string,
       learned: string[],
+      certImage: string
     }[],
     Stacks: {
       name: string,
@@ -44,6 +45,6 @@ export interface MyDataState {
 
   },
 
-  
+
 
 }
