@@ -65,6 +65,18 @@ export const data = {
       description: `This is my personal site.
                      I develop it with React, Redux and typescript`,
     },
+    {
+      slug: "CloudNotte_School_Management",
+      image: "/images/projects/Cloudnotte.png",
+      projectname: "CloudNotte",
+      link: "https://app.cloudnotte.com/",
+      description: `Cloudnotte is a school management software, that handles all the activities in the school.
+                    It has more that 30 and more functionalities, it one of the best user friendly and automated
+                    school management software out there, some schools are
+                    currently using it and there a lot of testmonies from them.
+                    It was develop with React, GoLang, ApolloClient and GraphQL and uses MongoDB as its database.
+                    I was incharge the API consumtion and frontend logic for this project`,
+    },
   ],
   social: [
     {
@@ -283,50 +295,72 @@ export const data = {
     {
       name: `Git`,
       link: `/images/skills/git.svg`,
+       width: undefined 
     },
     {
       name: `Html5`,
       link: `/images/skills/html5.svg`,
+       width: undefined 
     },
     {
       name: `Css3`,
       link: `/images/skills/css3.svg`,
+       width: undefined 
     },
     {
       name: `Javascript`,
       link: `/images/skills/javascript.svg`,
+       width: undefined 
     },
     {
       name: `React`,
       link: `/images/skills/react.svg`,
+       width: undefined 
     },
     {
       name: `Vue`,
       link: `/images/skills/vue.svg`,
+       width: undefined 
     },
     {
       name: `PhP`,
       link: `/images/skills/php.svg`,
+       width: undefined 
     },
     {
       name: `Nodejs`,
       link: `/images/skills/nodejs.svg`,
+       width: undefined 
     },
     {
       name: `Python`,
       link: `/images/skills/python.svg`,
+       width: undefined 
     },
     {
       name: `Mongodb`,
       link: `/images/skills/mongodb.svg`,
+       width: undefined 
     },
     {
       name: `Postgresql`,
       link: `/images/skills/postgresql.svg`,
+       width: undefined 
     },
     {
-      name: `sql`,
+      name: `SQL`,
       link: `/images/skills/sql.svg`,
+      width: undefined 
+    },
+    {
+      name: `ApolloClient`,
+      link: `/images/skills/apollo.png`,
+      width: 60
+    },
+    {
+      name: `GraphQL`,
+      link: `/images/skills/grapgql.png`,
+      width: 60
     },
   ],
 };

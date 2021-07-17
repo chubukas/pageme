@@ -5,10 +5,10 @@ const Stacks = () => {
 
   const stacks = useAppSelector(selectStacks);
 
-  const allSacks = stacks.map(({ name, link }, i) => (
+  const allSacks = stacks.map(({ name, link,width }, i) => (
     <div className="col-3 col-lg-2 mt-3" key={i}>
       <div data-bs-toggle="tooltip" title={name}>
-        <img src={link} alt={name} />
+        <img src={link} alt={name} width={width}/>
       </div>
     </div>
   ))

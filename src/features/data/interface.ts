@@ -41,6 +41,7 @@ export interface MyDataState {
     Stacks: {
       name: string,
       link: string,
+      width: number | undefined
     }[],
 
   },
