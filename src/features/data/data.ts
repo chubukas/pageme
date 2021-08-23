@@ -77,6 +77,13 @@ export const data = {
                     It was develop with React, GoLang, ApolloClient and GraphQL and uses MongoDB as its database.
                     I was incharge the API consumtion and frontend logic for this project`,
     },
+        {
+      slug: "Message_Dashboard",
+      image: "/images/projects/dashboard.png",
+      projectname: "Message Dashboard",
+      link: "https://dashboardmessage.herokuapp.com",
+      description: `Message Dashboard is a dashboard build with react.`,
+    },
   ],
   social: [
     {
