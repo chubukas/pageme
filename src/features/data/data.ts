@@ -77,7 +77,18 @@ export const data = {
                     It was develop with React, GoLang, ApolloClient and GraphQL and uses MongoDB as its database.
                     I was incharge the API consumtion and frontend logic for this project`,
     },
-        {
+    {
+      slug: "Question_Quiz_App",
+      image: "/images/projects/quiz.png",
+      projectname: "QuizApp",
+      link: "https://quizapp-steel.vercel.app/",
+      description: `This a quiz app that asks a general question about, 
+                    history, politics, entertaintment etc, and at the end of the last
+                    question, it gives you the total of your score and displays a
+                    list of the questions and whether the answer was correct or not.
+                    It was develop with React 16v with context API and the state management.`,
+    },
+    {
       slug: "Message_Dashboard",
       image: "/images/projects/dashboard.png",
       projectname: "Message Dashboard",
@@ -155,10 +166,12 @@ export const data = {
       icon: faUserAstronaut,
     },
     {
-      abt: `With ${yearsOFExperience - 1
-        } years of production experience with JavaScript, PHP, Mysql 
-      and ${yearsOFExperience - 2
-        } years of production experience with Vue, React, Express js, node js and Mongodb.`,
+      abt: `With ${
+        yearsOFExperience - 1
+      } years of production experience with JavaScript, PHP, Mysql 
+      and ${
+        yearsOFExperience - 2
+      } years of production experience with Vue, React, Express js, node js and Mongodb.`,
       icon: faUserAstronaut,
     },
     {
@@ -232,7 +245,7 @@ export const data = {
         `Protecting selected routes with token-based authentication in an Express app`,
         `Handling user files in an Express app`,
       ],
-      certImage: `/images/cert/fullsatck.png`
+      certImage: `/images/cert/fullsatck.png`,
     },
     {
       cert: `RELATIONAL DATABASE WITH SQL`,
@@ -249,7 +262,7 @@ export const data = {
         `Replicate real-world situations and query reports`,
         `Using Sql to perform data anlysis`,
       ],
-      certImage: `/images/cert/sql.png`
+      certImage: `/images/cert/sql.png`,
     },
     {
       cert: `BUILDING REST API`,
@@ -265,7 +278,7 @@ export const data = {
         `Sercuring your Rest Apis`,
         `Design endpoints for Rest Api.`,
       ],
-      certImage: `/images/cert/restapi.png`
+      certImage: `/images/cert/restapi.png`,
     },
     {
       cert: `FULL-STACK JAVASCRIPT`,
@@ -284,7 +297,7 @@ export const data = {
         `Server Deployment, Containerization and Testing`,
         `Database and Data Modelling for the Web`,
       ],
-      certImage: `/images/cert/udemyjs.png`
+      certImage: `/images/cert/udemyjs.png`,
     },
     {
       cert: `HND in Computer Science`,
@@ -295,79 +308,79 @@ export const data = {
       Fotran Proggramming, Digital Electronics, Digital Computer Design, Microprocessors & Microcomputers,
       Computer Networks and Information Theory.`,
       learned: [],
-      certImage: ``
+      certImage: ``,
     },
   ],
   Stacks: [
     {
       name: `Git`,
       link: `/images/skills/git.svg`,
-       width: undefined 
+      width: undefined,
     },
     {
       name: `Html5`,
       link: `/images/skills/html5.svg`,
-       width: undefined 
+      width: undefined,
     },
     {
       name: `Css3`,
       link: `/images/skills/css3.svg`,
-       width: undefined 
+      width: undefined,
     },
     {
       name: `Javascript`,
       link: `/images/skills/javascript.svg`,
-       width: undefined 
+      width: undefined,
     },
     {
       name: `React`,
       link: `/images/skills/react.svg`,
-       width: undefined 
+      width: undefined,
     },
     {
       name: `Vue`,
       link: `/images/skills/vue.svg`,
-       width: undefined 
+      width: undefined,
     },
     {
       name: `PhP`,
       link: `/images/skills/php.svg`,
-       width: undefined 
+      width: undefined,
     },
     {
       name: `Nodejs`,
       link: `/images/skills/nodejs.svg`,
-       width: undefined 
+      width: undefined,
     },
     {
       name: `Python`,
       link: `/images/skills/python.svg`,
-       width: undefined 
+      width: undefined,
     },
     {
       name: `Mongodb`,
       link: `/images/skills/mongodb.svg`,
-       width: undefined 
+      width: undefined,
     },
     {
       name: `Postgresql`,
       link: `/images/skills/postgresql.svg`,
-       width: undefined 
+      width: undefined,
     },
     {
       name: `SQL`,
       link: `/images/skills/sql.svg`,
-      width: undefined 
+      width: undefined,
     },
     {
       name: `ApolloClient`,
       link: `/images/skills/apollo.png`,
-      width: 60
+      width: 60,
     },
     {
       name: `GraphQL`,
       link: `/images/skills/grapgql.png`,
-      width: 60
+      width: 60,
     },
   ],
 };
